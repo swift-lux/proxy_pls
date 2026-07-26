@@ -1,8 +1,9 @@
-# svcode proxy | Proxy•Pulse
-# Телеграм канал: @pr0xy_pls
-# Результат: живые белые ключи
+#profile-title: svcode proxy | Proxy•Pulse
+#support-url: https://t.me/pr0xy+pls
+#announce: Результат: живые белые ключи
 # Найдено: несколько
 # Дата: 2026-07-23 05:59:28 UTC
+#ping-result: time
 #
 vless://8bba3194-4856-46d1-8319-075817d87eb1@147.45.50.132:443?security=reality&encryption=none&pbk=oGgupP3uX0TNyFwuxNYaFj-IQ8EPhCuKfJdaOHiMnV0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=nl16.sodahub.online&sid=c334408a1056aaf8#[275ms
 vless://8bba3194-4856-46d1-8319-075817d87eb1@147.45.50.132:443?security=reality&flow=xtls-rprx-vision&sni=nl16.sodahub.online&type=tcp&fp=firefox&pbk=oGgupP3uX0TNyFwuxNYaFj-IQ8EPhCuKfJdaOHiMnV0&sid=c334408a1056aaf8#[277ms
