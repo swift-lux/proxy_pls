@@ -1,5 +1,5 @@
 #profile-title: svcode proxy | Proxy•Pulse
-#support-url: https://t.me/pr0xy+pls
+#support-url: https://t.me/pr0xy_pls
 #announce: Результат: живые белые ключи
 # Найдено: 40
 # Дата: 2026-07-28 16:18:52 UTC
