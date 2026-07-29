@@ -6,6 +6,8 @@
 #ping-result: time
 #
 vless://0.0.0.0:0?security=reality&type=tcp&pbk=&fp=random&sni=&sid=#%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%20%D0%B1%D0%B5%D0%BB%D1%8B%D1%85%20%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%20%7C%20Proxy%E2%80%A2Pulse
+vless://72b9b9bd-8cb9-49ed-bfd4-20fab16829ba@213.219.212.14:443/?type=raw&encryption=none&flow=xtls-rprx-vision&sni=pro-ru-213.emrata.top&fp=safari&security=reality&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&sid=#Lite%20%40FreeCFGHub%20%F0%9F%87%B7%F0%9F%87%BA%20
+vless://fa9c9f0f-a89c-001c-95d6-a8b47311a6d6@46.8.209.131:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=smartcaptcha.yandexcloud.net&fp=edge&security=reality&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&sid=43dcff53849b81e6#Free%20%40FreeCFGHub%20%F0%9F%87%BA%F0%9F%87%B2
 hysteria2://9b08bee0-2615-46c6-8939-54b575517a26@78.159.250.230:8443?sni=quic.tyr-agentstvo.tech#[351ms
 hysteria2://9b08bee0-2615-46c6-8939-54b575517a26@78.159.250.230:8443?sni=quic.tyr-agentstvo.tech&__rand=6c9d497d#[361ms
 vless://1cca2cd9-78a0-0014-903e-50da79f92340@46.8.209.16:8443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&security=reality&sid=43dcff53849b81e6&sni=smartcaptcha.yandexcloud.net&type=tcp#[374ms
