@@ -6,11 +6,10 @@
 #ping-result: time
 #
 vless://0.0.0.0:0?security=reality&type=tcp&pbk=&fp=random&sni=&sid=#%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%20%D0%B1%D0%B5%D0%BB%D1%8B%D1%85%20%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%20%7C%20Proxy%E2%80%A2Pulse
-vless://d38370cf-1269-4cec-bc23-66061d9d2a92@176.109.92.130:40000?allowInsecure=1&flow=xtls-rprx-vision&fp=qq&pbk=SPDuT0LRzeXS9Q694fRpiMYAbwlzGqhLy8CLpa7YOTo&security=reality&sid=&sni=ads.x5.ru&type=tcp#%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%20%D0%9B%D0%B5%D1%85%D0%B0%20%D0%A2%D0%B5%D1%81%D1%82-1
-vless://d38370cf-1269-4cec-bc23-66061d9d2a92@176.109.88.14:2083?allowInsecure=1&flow=xtls-rprx-vision&fp=qq&pbk=SPDuT0LRzeXS9Q694fRpiMYAbwlzGqhLy8CLpa7YOTo&security=reality&sid=&sni=ads.x5.ru&type=tcp#%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%20%D0%9B%D0%B5%D1%85%D0%B0%20%D0%A2%D0%B5%D1%81%D1%82-2
-vless://d38370cf-1269-4cec-bc23-66061d9d2a92@176.109.88.14:2087?allowInsecure=1&flow=xtls-rprx-vision&fp=qq&pbk=SPDuT0LRzeXS9Q694fRpiMYAbwlzGqhLy8CLpa7YOTo&security=reality&sid=&sni=ads.x5.ru&type=tcp#%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%20%D0%9B%D0%B5%D1%85%D0%B0%20%D0%A2%D0%B5%D1%81%D1%82-3
-vless://d38370cf-1269-4cec-bc23-66061d9d2a92@176.109.92.120:40000?allowInsecure=1&flow=xtls-rprx-vision&fp=qq&pbk=SPDuT0LRzeXS9Q694fRpiMYAbwlzGqhLy8CLpa7YOTo&security=reality&sid=&sni=ads.x5.ru&type=tcp#%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%20%D0%9B%D0%B5%D1%85%D0%B0%20%D0%A2%D0%B5%D1%81%D1%82-4
-vless://d38370cf-1269-4cec-bc23-66061d9d2a92@176.109.92.130:40000?allowInsecure=1&flow=xtls-rprx-vision&fp=qq&pbk=SPDuT0LRzeXS9Q694fRpiMYAbwlzGqhLy8CLpa7YOTo&security=reality&sid=&sni=ads.x5.ru&type=tcp#%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%20%D0%9B%D0%B5%D1%85%D0%B0%20%D0%A2%D0%B5%D1%81%D1%82-5
+vless://37cc72ca-77cb-4421-9f4b-7be28b4eb897@81.163.22.249:443?allowInsecure=1&flow=xtls-rprx-vision&fp=firefox&pbk=cbzeihdN9Qm-YZp2_kSgv6eDa_HeYWO-JMUIaCjYiQs&security=reality&sid=7c83683ed7507a69&sni=dzen.ru&type=tcp#Нейро Леха Тест-6
+vless://166ef05e-8ab5-43b7-8910-d1bb0a4326a5@188.72.103.3:443?allowInsecure=1&flow=&fp=chrome&host=rooms.voicenest.space&path=%2Fapi%2Fv1%2Fvoice%2Frooms%2F7c053d451d&security=tls&sni=cdn.tracker.yandex.net&type=ws#Нейро Леха Тест-7
+vless://c5b15c1c-0174-4ade-8568-2b1661e6b952@78.159.245.32:28473?allowInsecure=1&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=secure.furrycdn.net&type=tcp#Нейро Леха Тест-23
+vless://c5b15c1c-0174-4ade-8568-2b1661e6b952@78.159.245.32:28473?allowInsecure=1&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=secure.furrycdn.net&type=tcp#Нейро Леха Тест-24
 hysteria2://9b08bee0-2615-46c6-8939-54b575517a26@78.159.250.230:8443?sni=quic.tyr-agentstvo.tech#[179ms
 hysteria2://9b08bee0-2615-46c6-8939-54b575517a26@78.159.250.230:443?sni=quic.tyr-agentstvo.tech#[254ms
 vless://c2074fa1-90b7-4add-a840-194a671385ea@81.163.23.185:8443?allowInsecure=1&type=grpc&security=reality&fp=firefox&pbk=K9vJ2zLFxi3VTmrguyLC1KrC920axeFSeA8x_xY4Xhw&sni=id.pervye.ru&serviceName=ns#[276ms
