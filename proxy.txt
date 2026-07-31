@@ -1,351 +1,290 @@
-#profile-title: svcode proxy | Proxy•Pulse
-#profile-update-interval: Найдено: 8
-#support-url: https://t.me/pr0xy_pls
-#announce: Результат: живые белые ключи
-# Дата: 2026-07-31 15:25:12 UTC
-#ping-result: time
-#
-vless://0.0.0.0:0?security=reality&type=tcp&pbk=&fp=random&sni=&sid=#%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%20%D0%B1%D0%B5%D0%BB%D1%8B%D1%85%20%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%20%7C%20Proxy%E2%80%A2Pulse
 {
   "dns": {
-    "queryStrategy": "UseIPv4",
     "servers": [
-      "1.1.1.1",
-      "8.8.8.8"
+      {
+        "tag": "cloudflare",
+        "address": "1.1.1.1"
+      },
+      {
+        "tag": "google",
+        "address": "8.8.8.8"
+      }
     ]
   },
   "inbounds": [
     {
+      "type": "mixed",
+      "tag": "mixed-in",
       "listen": "127.0.0.1",
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
+      "listen_port": 10808
     }
   ],
-  "meta": null,
   "outbounds": [
     {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "78.159.250.230",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "id": "c2948c84-748f-47f6-bc7a-b949ef279f85"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2"
-          ],
-          "fingerprint": "firefox",
-          "serverName": "13.143.130.92.tyr-agentstvo.tech"
+      "type": "vless",
+      "tag": "Обход белых списков | Proxy•Pulse",
+      "server": "",
+      "server_port": 443,
+      "uuid": "",
+      "encryption": "none",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "reality": {
+          "enabled": true,
+          "public_key": "",
+          "short_id": ""
         },
-        "wsSettings": {
-          "path": "/websocket?ed=2560"
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
         }
-      },
-      "tag": "Proxy•Pulse | 🇪🇺 Обход 1"
+      }
     },
     {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "t8baftn9lo.a.trbcdn.net",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "id": "c2948c84-748f-47f6-bc7a-b949ef279f85"
-              }
-            ]
-          }
+      "type": "vless",
+      "tag": "Proxy•Pulse | 🇪🇺 Обход 1",
+      "server": "78.159.250.230",
+      "server_port": 443,
+      "uuid": "c2948c84-748f-47f6-bc7a-b949ef279f85",
+      "encryption": "none",
+      "tls": {
+        "enabled": true,
+        "server_name": "13.143.130.92.tyr-agentstvo.tech",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "h2"
         ]
       },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "http/1.1",
-            "h2"
-          ],
-          "fingerprint": "firefox",
-          "serverName": "t8baftn9lo.a.trbcdn.net"
-        },
-        "xhttpSettings": {
-          "host": "",
-          "mode": "",
-          "path": "/"
-        }
-      },
-      "tag": "Proxy•Pulse | 🇪🇺 Обход 2"
+      "transport": {
+        "type": "ws",
+        "path": "/websocket?ed=2560"
+      }
     },
     {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "78.159.250.230",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "id": "c2948c84-748f-47f6-bc7a-b949ef279f85"
-              }
-            ]
-          }
+      "type": "vless",
+      "tag": "Proxy•Pulse | 🇪🇺 Обход 2",
+      "server": "t8baftn9lo.a.trbcdn.net",
+      "server_port": 443,
+      "uuid": "c2948c84-748f-47f6-bc7a-b949ef279f85",
+      "encryption": "none",
+      "tls": {
+        "enabled": true,
+        "server_name": "t8baftn9lo.a.trbcdn.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1",
+          "h2"
         ]
       },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2"
-          ],
-          "fingerprint": "firefox",
-          "serverName": "2.26.148.147.tyr-agentstvo.tech"
-        },
-        "wsSettings": {
-          "path": "/websocket?ed=2560"
-        }
-      },
-      "tag": "Proxy•Pulse | 🇪🇺 Обход 3"
+      "transport": {
+        "type": "xhttp",
+        "path": "/",
+        "host": "",
+        "mode": ""
+      }
     },
     {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "217.150.197.54",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "id": "c2948c84-748f-47f6-bc7a-b949ef279f85"
-              }
-            ]
-          }
+      "type": "vless",
+      "tag": "Proxy•Pulse | 🇪🇺 Обход 3",
+      "server": "78.159.250.230",
+      "server_port": 8443,
+      "uuid": "c2948c84-748f-47f6-bc7a-b949ef279f85",
+      "encryption": "none",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.148.147.tyr-agentstvo.tech",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "h2"
         ]
       },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2"
-          ],
-          "fingerprint": "firefox",
-          "serverName": "2.26.148.147.tyr-agentstvo.tech"
-        },
-        "wsSettings": {
-          "path": "/websocket?ed=2560"
-        }
-      },
-      "tag": "Proxy•Pulse | 🇪🇺 Обход 4"
+      "transport": {
+        "type": "ws",
+        "path": "/websocket?ed=2560"
+      }
     },
     {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "78.159.240.215",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "id": "c2948c84-748f-47f6-bc7a-b949ef279f85"
-              }
-            ]
-          }
+      "type": "vless",
+      "tag": "Proxy•Pulse | 🇪🇺 Обход 4",
+      "server": "217.150.197.54",
+      "server_port": 8443,
+      "uuid": "c2948c84-748f-47f6-bc7a-b949ef279f85",
+      "encryption": "none",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.148.147.tyr-agentstvo.tech",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "h2"
         ]
       },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2"
-          ],
-          "fingerprint": "firefox",
-          "serverName": "13.143.130.92.tyr-agentstvo.tech"
-        },
-        "wsSettings": {
-          "path": "/websocket?ed=2560"
-        }
-      },
-      "tag": "Proxy•Pulse | 🇪🇺 Обход 5"
+      "transport": {
+        "type": "ws",
+        "path": "/websocket?ed=2560"
+      }
     },
     {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "78.159.240.215",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "id": "c2948c84-748f-47f6-bc7a-b949ef279f85"
-              }
-            ]
-          }
+      "type": "vless",
+      "tag": "Proxy•Pulse | 🇪🇺 Обход 5",
+      "server": "78.159.240.215",
+      "server_port": 443,
+      "uuid": "c2948c84-748f-47f6-bc7a-b949ef279f85",
+      "encryption": "none",
+      "tls": {
+        "enabled": true,
+        "server_name": "13.143.130.92.tyr-agentstvo.tech",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "h2"
         ]
       },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2"
-          ],
-          "fingerprint": "firefox",
-          "serverName": "2.26.148.147.tyr-agentstvo.tech"
-        },
-        "wsSettings": {
-          "path": "/websocket?ed=2560"
-        }
-      },
-      "tag": "Proxy•Pulse | 🇪🇺 Обход 6"
+      "transport": {
+        "type": "ws",
+        "path": "/websocket?ed=2560"
+      }
     },
     {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "78.159.240.69",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "id": "c2948c84-748f-47f6-bc7a-b949ef279f85"
-              }
-            ]
-          }
+      "type": "vless",
+      "tag": "Proxy•Pulse | 🇪🇺 Обход 6",
+      "server": "78.159.240.215",
+      "server_port": 8443,
+      "uuid": "c2948c84-748f-47f6-bc7a-b949ef279f85",
+      "encryption": "none",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.148.147.tyr-agentstvo.tech",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "h2"
         ]
       },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2"
-          ],
-          "fingerprint": "firefox",
-          "serverName": "13.143.130.92.tyr-agentstvo.tech"
-        },
-        "wsSettings": {
-          "path": "/websocket?ed=2560"
-        }
-      },
-      "tag": "Proxy•Pulse | 🇪🇺 Обход 7"
+      "transport": {
+        "type": "ws",
+        "path": "/websocket?ed=2560"
+      }
     },
     {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "78.159.240.69",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "id": "c2948c84-748f-47f6-bc7a-b949ef279f85"
-              }
-            ]
-          }
+      "type": "vless",
+      "tag": "Proxy•Pulse | 🇪🇺 Обход 7",
+      "server": "78.159.240.69",
+      "server_port": 443,
+      "uuid": "c2948c84-748f-47f6-bc7a-b949ef279f85",
+      "encryption": "none",
+      "tls": {
+        "enabled": true,
+        "server_name": "13.143.130.92.tyr-agentstvo.tech",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "h2"
         ]
       },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2"
-          ],
-          "fingerprint": "firefox",
-          "serverName": "2.26.148.147.tyr-agentstvo.tech"
-        },
-        "wsSettings": {
-          "path": "/websocket?ed=2560"
-        }
-      },
-      "tag": "Proxy•Pulse | 🇪🇺 Обход 8"
+      "transport": {
+        "type": "ws",
+        "path": "/websocket?ed=2560"
+      }
     },
     {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
+      "type": "vless",
+      "tag": "Proxy•Pulse | 🇪🇺 Обход 8",
+      "server": "78.159.240.69",
+      "server_port": 8443,
+      "uuid": "c2948c84-748f-47f6-bc7a-b949ef279f85",
+      "encryption": "none",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.148.147.tyr-agentstvo.tech",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "h2"
+        ]
       },
+      "transport": {
+        "type": "ws",
+        "path": "/websocket?ed=2560"
+      }
+    },
+    {
+      "type": "direct",
       "tag": "direct"
     },
     {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
+      "type": "block",
       "tag": "block"
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "Обход белых списков | Proxy•Pulse",
+        "Proxy•Pulse | 🇪🇺 Обход 1",
+        "Proxy•Pulse | 🇪🇺 Обход 2",
+        "Proxy•Pulse | 🇪🇺 Обход 3",
+        "Proxy•Pulse | 🇪🇺 Обход 4",
+        "Proxy•Pulse | 🇪🇺 Обход 5",
+        "Proxy•Pulse | 🇪🇺 Обход 6",
+        "Proxy•Pulse | 🇪🇺 Обход 7",
+        "Proxy•Pulse | 🇪🇺 Обход 8"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "5m"
+    },
+    {
+      "type": "selector",
+      "tag": "proxy",
+      "outbounds": [
+        "auto",
+        "Обход белых списков | Proxy•Pulse",
+        "Proxy•Pulse | 🇪🇺 Обход 1",
+        "Proxy•Pulse | 🇪🇺 Обход 2",
+        "Proxy•Pulse | 🇪🇺 Обход 3",
+        "Proxy•Pulse | 🇪🇺 Обход 4",
+        "Proxy•Pulse | 🇪🇺 Обход 5",
+        "Proxy•Pulse | 🇪🇺 Обход 6",
+        "Proxy•Pulse | 🇪🇺 Обход 7",
+        "Proxy•Pulse | 🇪🇺 Обход 8"
+      ]
     }
   ],
-  "remarks": "Proxy•Pulse | 🇪🇺 Обход",
-  "routing": {
-    "balancers": [
-      {
-        "selector": [
-          "Proxy•Pulse | 🇪🇺 Обход 1",
-          "Proxy•Pulse | 🇪🇺 Обход 2",
-          "Proxy•Pulse | 🇪🇺 Обход 3",
-          "Proxy•Pulse | 🇪🇺 Обход 4",
-          "Proxy•Pulse | 🇪🇺 Обход 5",
-          "Proxy•Pulse | 🇪🇺 Обход 6",
-          "Proxy•Pulse | 🇪🇺 Обход 7",
-          "Proxy•Pulse | 🇪🇺 Обход 8"
-        ],
-        "tag": "balancer"
-      }
-    ],
-    "domainStrategy": "IPIfNonMatch",
+  "route": {
     "rules": [
       {
-        "balancerTag": "balancer",
-        "inboundTag": [
-          "socks"
-        ],
-        "port": "0-65535"
+        "protocol": "dns",
+        "outbound": "dns-out"
       }
-    ]
+    ],
+    "final": "proxy"
   }
 }
