@@ -1,4 +1,3 @@
-#profile-title: svcode proxy | Proxy•Pulse
 #profile-update-interval: Найдено: неизвестно
 #support-url: https://t.me/pr0xy_pls
 #profile-web-page-url: https://link-svcode.onrender.com/
@@ -7,6 +6,7 @@
 #ping-result: time
 #subscription-userinfo: upload=0; download=534521663485; total=0; expire=0
 #
+#profile-title: svcode proxy | Proxy•Pulse
 vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1?encryption=none&type=tcp&security=none#%F0%9F%8C%90%20Proxy%E2%80%A2Pulse%20%F0%9F%8C%90
 hysteria2://c566a870-3dcd-4a54-95b1-583713a62b51@franchi.cryposikel.ru:443/?sni=franchi.cryposikel.ru&fm=%7B%22quicParams%22%3A%7B%22debug%22%3Afalse%2C%22congestion%22%3A%22bbr%22%7D%7D#🇫🇷 Франция
 vless://d9e1508d-bf53-47ab-92c2-205706773750@91.185.83.88:443?allowInsecure=1&flow=xtls-rprx-vision&fp=firefox&pbk=vZ22ThhkpXUd5-tY-v5TTrouLHjgYYmeQgqeLt7HRz0&security=reality&sid=&sni=google.com&type=tcp#%F0%9F%87%AA%F0%9F%87%AA%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%20%D0%B2%D1%81%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B%201
