@@ -2,8 +2,7 @@
 #profile-update-interval: Найдено: неизвестно
 #support-url: https://t.me/pr0xy_pls
 #profile-web-page-url: https://link-svcode.onrender.com/
-#announce: Результат: живые белые ключи
-#announce: Работаем!!!
+#announce: base64:0KDQtdC30YPQu9GM0YLQsNGCOiDQttC40LLRi9C1INCx0LXQu9GL0LUg0LrQu9GO0YfQuArQn9GA0L7QtNC+0LvQttCw0LXQvCDRgNCw0LHQvtGC0LDRgtGMIQoK0JXRgdC70Lgg0L3QtSDRgNCw0LHQvtGC0LDQtdGCINGB0L7QvtCx0YnQuNGC0LUg0L3QsNC8IHN2Y29kZUBtaXJhaS5yZQ==
 # Дата: 2026-91-12 19:15:12 UTC
 #ping-result: time
 #subscription-userinfo: upload=0; download=534521663485; total=0; expire=0
